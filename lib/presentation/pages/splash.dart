@@ -170,7 +170,7 @@ class StarPainter extends CustomPainter {
     // Layer 1
 
     Paint paintFill0 = Paint()
-      ..color = AppColors.backgroundcolor
+      ..color = AppColors.appYellow
       ..style = PaintingStyle.fill
       ..strokeWidth = size.width * 0.00
       ..strokeCap = StrokeCap.butt
@@ -197,7 +197,7 @@ class StarPainter extends CustomPainter {
     // Layer 1
 
     Paint paintStroke0 = Paint()
-      ..color = const Color.fromARGB(255, 33, 150, 243)
+      ..color = AppColors.appYellow
       ..style = PaintingStyle.stroke
       ..strokeWidth = size.width * 0.00
       ..strokeCap = StrokeCap.butt
